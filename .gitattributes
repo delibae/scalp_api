@@ -1,4 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-notebooks/** linguist-vendored
+*/*.ipynb linguist-detectable=false
+*.ipynb linguist-detectable=false
